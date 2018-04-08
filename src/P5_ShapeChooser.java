@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 /*
 	ISYS 320
 	Name(s):
@@ -8,7 +10,16 @@ public class P5_ShapeChooser {
 
 	public static void main(String[] args) {
 
-
+		Scanner console = new Scanner(System.in);
+		System.out.print("What shape would you like to draw? ");
+		String shape = console.next();
+		if(shape.equalsIgnoreCase("tri")){
+			drawTri();
+		} else if(shape.equalsIgnoreCase("box")){
+			drawBox();
+		} else {
+			System.out.println("Error: I don't know what shape you want to draw?");
+		}
 	}
 	
 	private static void drawBox() {

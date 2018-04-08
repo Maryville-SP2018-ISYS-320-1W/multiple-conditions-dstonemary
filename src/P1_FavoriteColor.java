@@ -7,7 +7,7 @@ Date:
 */
 
 /*  What was the error?
- 
+ Error at line : if(name == "blue")
   
  */
 
@@ -19,7 +19,7 @@ public class P1_FavoriteColor {
 		System.out.print("What is your favorite color? ");
 		String name = console.next();
 		
-		if( name == "blue") {
+		if( name.equalsIgnoreCase("blue")) {
 			System.out.println("Mine too!");
 		}
 
