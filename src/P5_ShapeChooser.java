@@ -1,9 +1,9 @@
 import java.util.Scanner;
 
 /*
-	ISYS 320
-	Name(s):
-	Date: 
+ISYS 320
+Name(s): Derek Stone
+Date:    April-16-2018
 */
 
 public class P5_ShapeChooser {

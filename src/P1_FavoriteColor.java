@@ -1,9 +1,9 @@
 import java.util.Scanner;
 
 /*
-ISYS 320
-Name(s):
-Date: 
+	ISYS 320
+	Name(s): Derek Stone
+	Date:    April-16-2018
 */
 
 /*  What was the error?
@@ -17,7 +17,7 @@ public class P1_FavoriteColor {
 		Scanner console = new Scanner(System.in);
 		
 		System.out.print("What is your favorite color? ");
-		String name = console.next();
+		String name = console.nextLine();
 		
 		if( name.equalsIgnoreCase("blue")) {
 			System.out.println("Mine too!");
